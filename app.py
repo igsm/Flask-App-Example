@@ -7,7 +7,7 @@ from flask import (Flask, render_template, redirect,
 from options import DEFAULTS
 
 app = Flask(__name__)
-app.secret_key = 'fjfa#BBWY)W)%W%(YQUt53tq4jt1-0ti343fwFJASf"{WL'
+app.secret_key = 'enter key here' # generate a unique key by >>> import os; os.urandom(24)
 
 
 def get_saved_data():
